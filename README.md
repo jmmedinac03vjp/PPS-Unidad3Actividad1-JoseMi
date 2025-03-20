@@ -1,5 +1,5 @@
 # PPS-Unidad1Actividad2-JoseMi
-Actividad 1 de la Unidad 1 de Puesta en Producción Segura. 
+Actividad 1 de la Unidad 3 de Puesta en Producción Segura. Creación de entornos de pruebas. 
 
 Tenemos como objetivo:
 
@@ -18,9 +18,10 @@ Entre las muchas que hay podemos encontrar los siguientes proyectos:
 2.[Buggy w¡Web APPlication \(BWAPP\)](http://www.itsecgames.com/) 
 3.[OWASP Multillidae II](https://owasp.org/www-project-mutillidae-ii/)
 
-Para ello crea una carpeta con  
+Para ello tan sólo tenemos que realizar los siguientes pasos:
+1. Crea una carpeta con nombre entorno-vulnerables-tunombre
+2. Coloca dentro de ella el archivo [docker-compose.yml](./entorno-vulnerables/docker-compose.yml) que tienes en la carpeta entorno-vulnerable de este repositorio: 
 
-1. Instalamos, si no las tenemos, el paquete de python en su versión 3 y ``pip`` que es un gestor de paquetes escritos en python.
 ~~~
 sudo apt install python3
 sudo apt install pip
@@ -41,9 +42,21 @@ sudo apt install jupiter-notebook
 
 ## Entorno de pruebas
 
+Vamos también a crear un entorno de pruebas en los que vamos a realizar las prácticas, creando servidores y archivos con vulnerabiliades presentes, para corregirlas posteriormente.
 
->[https://docs.python.org/3.10/contents.html](https://docs.python.org/3.10/contents.html)
+Tenemos diferentes opciones para realizarlo, entre ellas:
 
+- Crear una máquina virtual e instalar todo lo necesario: Una pila sea del tipo que sea: LAMP, LEMP, MEAN, XAMPP, WAMP y AMPPS.
+
+- Crear un escenario multicontenedor con cualquiera de esas pilas.
+
+En esta ocasión vamos utilizar la segunda opción, crearemos un escenario multicontenedor con cualquiera de las pilas que nos podemos encontrar en [docker hub](https://hub.docker.com). Yo he utilizado la primera que me he encontrado:[https://github.com/sprintcube/docker-compose-lamp.git](https://github.com/sprintcube/docker-compose-lamp.git)
+
+> Puedes clonar el repositorio con:
+
+~~~
+git clone https://github.com/sprintcube/docker-compose-lamp.git
+~~~
 >[https://uniwebsidad.com/libros/python/capitulo-2/elementos-del-lenguaje](https://uniwebsidad.com/libros/python/capitulo-2/elementos-del-lenguaje)
 
 >[https://protegermipc.net/2019/05/22/libro-python-basico-para-hackers-y-pentester](https://protegermipc.net/2019/05/22/libro-python-basico-para-hackers-y-pentester)
