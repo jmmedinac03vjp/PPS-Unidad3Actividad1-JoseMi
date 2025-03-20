@@ -20,7 +20,7 @@ Entre las muchas que hay podemos encontrar los siguientes proyectos:
 
 Para ello tan sólo tenemos que realizar los siguientes pasos:
 1. Crea una carpeta con nombre entorno-vulnerables-tunombre
-2. Coloca dentro de ella el archivo [docker-compose.yml](./entorno-vulnerables/docker-compose.yml) que tienes en la carpeta entorno-vulnerable de este repositorio: 
+2. Coloca dentro de ella el archivo [docker-compose.yml](./entornoMaquinasInseguras/docker-compose.yml) que tienes en la carpeta entornoMaquinasInseguras de este repositorio: 
 
 ~~~
 sudo apt install python3
