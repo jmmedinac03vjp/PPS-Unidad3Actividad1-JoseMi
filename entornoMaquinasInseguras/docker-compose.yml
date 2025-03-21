@@ -10,7 +10,7 @@ services:
     image: cytopia/dvwa:php-${PHP_VERSION:-8.1}
 #    restart: unless-stopped
     ports:
-      - "${LISTEN_PORT:-8002}:80"
+      - "${LISTEN_PORT:-8000}:80"
     networks:
       - labpps-net
     environment:

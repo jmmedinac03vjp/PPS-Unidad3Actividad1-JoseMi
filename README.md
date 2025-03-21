@@ -21,24 +21,22 @@ Entre las muchas que hay podemos encontrar los siguientes proyectos:
 Para ello tan sólo tenemos que realizar los siguientes pasos:
 1. Crea una carpeta con nombre entorno-vulnerables-tunombre
 2. Coloca dentro de ella el archivo [docker-compose.yml](./entornoMaquinasInseguras/docker-compose.yml) que tienes en la carpeta entornoMaquinasInseguras de este repositorio: 
+3. Levanta el escenario multicontedor con `docker-compose up -d`
 
-~~~
-sudo apt install python3
-sudo apt install pip
-~~~
+> Las máquinas vulnerables que hemos creado son:
+>> **DVWA**
+>
+>> bWAPP. A esta máquina accedemos a través del puerto **8002**. 
+>> La primera vez que accedamos nos dará un error ya que no tiene creada la BBDD. ![](images/bwapp1.png)
+>> Por lo tanto accedemos a crearla: <localhost:8002/install.php> ![](images/bwapp2.png)
+>> Y ya podremos acceder pulsando en login o creando un nuevo usuario. Las credenciales de acceso por defecto son usuario: bee, contraseña: bug.
+>> ![](images/bwapp3.png)
+>> Y después de acceder podremos realizar un gran número de entrenamientos de explotación de vulnerabilidades.
+>> ![](images/bwapp4.png)
+>
+>> OWASP Multillidae ii
+>>
 
-
-
-~~~
-pip install jupiter-lab
-#Si estás utilizando Kali quizá tengas que hacer
-sudo apt install jupiter-notebook
-~~~
- 
-
-
-> __Crea algún notobook para familiarizarte con el entorno.__
-> __Añade en él algún campo tanto de código como de MarkDown__
 
 ## Entorno de pruebas
 
