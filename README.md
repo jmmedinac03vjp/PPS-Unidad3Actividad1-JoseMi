@@ -10,13 +10,13 @@ Tenemos como objetivo:
 ---
 ## Entorno de maquinas vulnerables
 
-Hemos visto como entre la información de fuentes abiertas que tenemos a nuestro alcance, hay proyectos creados con máquinas deliberadamente vulnerables para que podamos entrenar con ellas.
+Hemos visto como, entre la información de fuentes abiertas que tenemos a nuestro alcance, hay proyectos creados con máquinas deliberadamente vulnerables para que podamos entrenar con ellas.
 
 Entre las muchas que hay podemos encontrar los siguientes proyectos: 
 
-1.[DAMN VULNERABLE WEB APPLICATION \(DVWA\)](https://github.com/digininja/DVWA/blob/master/README.es.md) 
-2.[Buggy w¡Web APPlication \(BWAPP\)](http://www.itsecgames.com/) 
-3.[OWASP Multillidae II](https://owasp.org/www-project-mutillidae-ii/)
+1. [DAMN VULNERABLE WEB APPLICATION \(DVWA\)](https://github.com/digininja/DVWA/blob/master/README.es.md) 
+2. [Buggy Web APPlication \(BWAPP\)](http://www.itsecgames.com/) 
+3. [OWASP Multillidae II](https://owasp.org/www-project-mutillidae-ii/)
 
 Para ello tan sólo tenemos que realizar los siguientes pasos:
 1. Crea una carpeta con nombre entorno-vulnerables-tunombre
@@ -53,25 +53,22 @@ Tenemos diferentes opciones para realizarlo, entre ellas:
 En esta ocasión vamos utilizar la segunda opción, crearemos un escenario multicontenedor con cualquiera de las pilas que nos podemos encontrar en [docker hub](https://hub.docker.com). Yo he utilizado la primera que me he encontrado:[https://github.com/sprintcube/docker-compose-lamp.git](https://github.com/sprintcube/docker-compose-lamp.git)
 
 > Puedes clonar el repositorio con:
-
-~~~
-git clone https://github.com/sprintcube/docker-compose-lamp.git
-~~~
+>
+> ~~~
+> git clone https://github.com/sprintcube/docker-compose-lamp.git
+> ~~~
 >[https://uniwebsidad.com/libros/python/capitulo-2/elementos-del-lenguaje](https://uniwebsidad.com/libros/python/capitulo-2/elementos-del-lenguaje)
 
 >[https://protegermipc.net/2019/05/22/libro-python-basico-para-hackers-y-pentester](https://protegermipc.net/2019/05/22/libro-python-basico-para-hackers-y-pentester)
 
 
 
-Una vez creadas las funciones:
-
-> Crea en el mismo ``notebook`` programa en Python con nombre mi_modulo.py que nos pida dos números y nos muestre un menú solicitándonos el tipo de operación que queremos realizar: entre suma, resta, multiplicación y división, realice la operación y muestre los resultados. El programa deberá llamar a las funciones que hemos realizado anteriormente.
 
 
 ---
 ## ENTREGA
 
-> __Implementa los dos entornos indicados __
+>__Implementa los dos entornos indicados__
 
 >__Crea un repositorio  con nombre PPS-Unidad3Actividad1-Tu-Nombre donde documentes la realización de ellos.__
 
