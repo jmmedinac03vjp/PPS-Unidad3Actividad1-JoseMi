@@ -38,7 +38,7 @@ Para ello tan sólo tenemos que realizar los siguientes pasos:
 >> Ya con el usuario **admin* y la contraseña **password** podemos hacer a completar los retos que queramos.
 >> ![](images/DVWA4.png)
 >>
->
+>---
 >
 >> **bWAPP**. A esta máquina accedemos a través del puerto **8002**. 
 >>
@@ -49,11 +49,12 @@ Para ello tan sólo tenemos que realizar los siguientes pasos:
 >> Y ya podremos acceder pulsando en login o creando un nuevo usuario. Las credenciales de acceso por defecto son usuario: bee, contraseña: bug y podemos seleccionar en este momento el **nivel de seguridad** que queremos que tenga la máquina.
 >>
 >> ![](images/bwapp3.png)
+>> ![](images/bwapp4.png)
 >>
 >> Y después de acceder podremos realizar un gran número de entrenamientos de explotación de vulnerabilidades.
 >>
->> ![](images/bwapp4.png)
->
+>> ![](images/bwapp5.png)
+>---
 >
 >> **OWASP Multillidae ii**. A esta máquina accedemos a través del puerto **80** o del **8080**. 
 >>
