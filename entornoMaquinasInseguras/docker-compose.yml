@@ -6,11 +6,10 @@ version: '2.4'
 services:
 
   dvwa_web:
-# usuario admin contraseña password
     image: cytopia/dvwa:php-${PHP_VERSION:-8.1}
 #    restart: unless-stopped
     ports:
-      - "${LISTEN_PORT:-8001}:80"
+      - "${LISTEN_PORT:-8002}:80"
     networks:
       - labpps-net
     environment:
@@ -43,20 +42,19 @@ services:
     image: feltsecure/owasp-bwapp
 #    restart: unless-stopped
     ports:
-      - "${LISTEN_PORT:-8002}:80"
+      - "${LISTEN_PORT:-8001}:80"
     networks:
       - labpps-net
 
- kali:
+  kali:
     image: jmmedinac03/kali_pps
-
     hostname: kali
     cap_add:
       - NET_ADMIN
     stdin_open: true
     tty: true
     volumes:
-      - ./kali-volume:/root/kali
+      - /home/jmmedinac03/docker/PPS/LABPPS/kali-volume:/root/kali
 #    restart: unless-stopped
     networks:
       - labpps-net
